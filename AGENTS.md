@@ -1,5 +1,17 @@
 # VectorCraft — instructions for agents
 
+## Validacao documental e confirmacao para testes
+
+- Esta politica e obrigatoria e prevalece sobre orientacoes conflitantes de validacao automatica ou autonomia neste arquivo, em CLAUDE.md, planos e demais referencias. Preserva as regras de organizacao dos commits, branch e autorizacao de push.
+- A excecao vale somente para commits exclusivamente documentais: README.md, CLAUDE.md, AGENTS.md, instrucoes para agentes e documentos de orientacao, planejamento ou referencia que nao sejam usados na execucao, compilacao, empacotamento ou testes do projeto. A extensao do arquivo, por si so, nao determina a elegibilidade.
+- Nesses commits, nao execute suite de testes, compilacao, lint de codigo ou CI completo. Revise o diff, execute `git diff --check`, confira os links locais e a coerencia das instrucoes alteradas. Informe na entrega que a validacao completa foi dispensada por se tratar de alteracao exclusivamente documental.
+- A excecao nao abrange codigo, dependencias, configuracoes, scripts, workflows, assets usados pelo produto, documentacao executavel nem arquivos consumidos pelo aplicativo ou pelo build. Commits que misturem documentacao com essas alteracoes continuam sujeitos as validacoes aplicaveis.
+- Antes de iniciar testes ou validacoes de codigo, explique ao usuario quais verificacoes pretende executar, por que sao necessarias e seu alcance. Informe se podem exigir compilacao demorada, sem inventar estimativas. Pergunte se deseja continuar e aguarde confirmacao explicita; pedidos para alterar arquivos ou criar commits nao autorizam essas execucoes automaticamente.
+- Nao repita a pergunta para a mesma execucao ja autorizada. Peca nova confirmacao se precisar ampliar significativamente o escopo.
+- Se o usuario nao autorizar, preserve as alteracoes e informe quais verificacoes ficaram pendentes. Nao crie commits que exijam essas verificacoes sem uma dispensa explicita do usuario.
+- Durante execucoes longas, comunique avancos relevantes, falhas ou bloqueios, sem mensagens repetitivas de espera.
+- Revisao do diff, `git diff --check` e conferencia de links locais podem ser feitas sem confirmacao.
+
 VectorCraft is a clean-room, open-source, Rust-native vector illustration app targeting Adobe Illustrator parity (and beyond). It runs natively on macOS, Windows and Linux, and on the web via WASM. Siblings: `../photocraft` (Photoshop-class) and `../pdfcraft` (Acrobat-class); same conventions.
 
 Formerly **DrawCraft** (renamed 2026-10-01): old `.drawcraft` files and `"format": "drawcraft"` headers still open (`vectorcraft_format::LEGACY_EXTENSION`), and preferences migrate from the old config folder. Keep those paths working; use the new name everywhere else.
@@ -7,7 +19,7 @@ Formerly **DrawCraft** (renamed 2026-10-01): old `.drawcraft` files and `"format
 ## Start every session here
 1. Read [`ROADMAP.md`](ROADMAP.md) (stage, numbers by dimension, what's next) and the ranked work list in [`docs/gaps.md`](docs/gaps.md). Unless the user gives you a task, pick work from that list.
 2. Read `plan/STATUS.md` (local session notes, may lag the ROADMAP), then the task in `plan/execution-plan.md` §3 and the relevant `plan/architecture.md` section. Behaviour reference: public documentation only (see Clean-room below); `plan/illustrator/*.md` holds notes from it.
-3. Follow the autonomous operation protocol (`plan/execution-plan.md` §7): orient → plan → implement + test → verify → record → commit. Don't stop to ask unless §7 lists the decision as the user's.
+3. Follow the autonomous operation protocol (`plan/execution-plan.md` §7): orient → plan → implement + test → verify → record → commit. Ask for explicit user confirmation before tests or code validation as required by AGENTS.md; otherwise follow the autonomy protocol.
 
 `plan/` is gitignored (local only).
 
@@ -47,7 +59,7 @@ Formerly **DrawCraft** (renamed 2026-10-01): old `.drawcraft` files and `"format
 - **Rust only** (no handwritten JS/TS). **Never break wasm** (`cargo xtask wasm`).
 - **Time goes through `chrono`** (workspace dependency). Never hand-roll UTC/calendar conversion (days-to-date algorithms, leap-year math); a crate owns only its output format string. The one exception is range extension: past the years chrono can represent, shift the date by whole 400-year Gregorian cycles (146,097 days, after which the calendar repeats), let chrono compute the month and day, and add the cycles back to the year (splitting seconds into hours, minutes and seconds is plain arithmetic).
 - **Shared test corpora.** Real-file test oracles (Photoshop-authored PSDs, etc.) live in [`storytold/photocraft-corpus`](https://github.com/storytold/photocraft-corpus), explained in [craftrules `standards/test-corpora.md`](https://github.com/storytold/craftrules/blob/main/standards/test-corpora.md). Never commit large binary fixtures to this repo; fetch them pinned by commit and sha256-verified, as PhotoCraft does with `cargo xtask corpus`.
-- **Quality gates** before every commit: `cargo xtask ci` (fmt, clippy -D warnings including the no-panic lints, tests, layers, wasm). One task id per commit (`M2.1: pen tool`).
+- **Quality gates** before commits requiring code validation (subject to the documentation exception and explicit user confirmation in AGENTS.md): `cargo xtask ci` (fmt, clippy -D warnings including the no-panic lints, tests, layers, wasm). One task id per commit (`M2.1: pen tool`).
 
 ## Running and looking at the app
 - `cargo run --release -p vectorcraft -- --control 7979 [file.svg|file.vectorcraft]` (sibling apps' agents use the same default port: if the log says it failed to bind, pick another port — otherwise your requests reach a different app).
