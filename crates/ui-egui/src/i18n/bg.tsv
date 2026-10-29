@@ -227,8 +227,8 @@ font-technology	Variable	Променливи
 	Artboard {number}	Работна област {number}
 	Artboard:	Работна област:
 	Artboards	Работни области
-	ArtCraft Website	Уебсайт на ArtCraft
-	ArtCraft website	Уебсайт на ArtCraft
+	Creative Workshop Website	Уебсайт на Creative Workshop
+	Creative Workshop website	Уебсайт на Creative Workshop
 	Artwork Colors	Цветове на произведението
 	As Multiple Assets	Като множество активи
 	As Single Asset	Като един актив
@@ -1548,9 +1548,9 @@ font-technology	Variable	Променливи
 	Italian	Италиански
 	Japanese	Японски
 	Join	Свързване
-	Join Our Discord	Присъединете се към нашия Discord
-	Join our Discord	Присъединете се към нашия Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Присъединете се към общността на ArtCraft в Discord (discord.gg/artcraft)
+	Project support	Присъединете се към нашия Discord
+	Project support	Присъединете се към нашия Discord
+	Project support on GitHub (github.com/dfoliveira2143/vectorcraft/issues)	Присъединете се към общността на Creative Workshop в GitHub (github.com/dfoliveira2143/vectorcraft/issues)
 	Join the lines of each paragraph	Свързване на редовете на всеки параграф
 	Join Tool	Инструмент „Свързване“
 	Justification…	Подравняване…
@@ -2204,7 +2204,7 @@ font-technology	Variable	Променливи
 	Paragraph Style Options	Опции за стил на абзац
 	Paragraph Styles	Стилове на абзац
 	Paragraph Symbol	Символ за абзац
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от ArtCraft. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono (OFL). Икони: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от Creative Workshop. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono (OFL). Икони: Lucide (ISC) + VectorCraft.
 	Password	Парола
 	Paste	Поставяне
 	Paste in Back	Поставяне отзад
@@ -3486,7 +3486,7 @@ font-technology	Variable	Променливи
 	Vector illustration — fast, open, scriptable.	Векторна илюстрация — бърза, отворена, скриптуема.
 	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft не се затвори нормално последния път. Тези документи съдържаха незапазени промени:
 	VectorCraft Help…	Помощ за VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft в getartcraft.com
+	VectorCraft on github.com/dfoliveira2143	VectorCraft в github.com/dfoliveira2143
 	VectorCraft on GitHub	VectorCraft в GitHub
 	Vectors	Вектори
 	Version {version} — open-source vector illustration in pure Rust.	Версия {version} — векторна илюстрация с отворен код на чист Rust.
@@ -4916,7 +4916,7 @@ lighting	Light	Светлина
 	PDF/X-4:2010	PDF/X-4:2010
 	PRs	ПР-и
 	Page Cover 1640×624	Корица на страница 1640×624
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от ArtCraft. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Икони: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от Creative Workshop. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Икони: Lucide (ISC) + VectorCraft.
 	Pattern Swatches	Образци на мостри
 	Pen	Перо
 	Pentagram	Петограм

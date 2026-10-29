@@ -12,7 +12,7 @@
 	About VectorCraft	Om VectorCraft
 	Align to Path	Justér til kurve
 	Cut Path at Selected Anchor Points	Klip kurve ved valgte ankerpunkter
-	Join Our Discord	Slut dig til vores Discord
+	Project support	Slut dig til vores Discord
 	Language	Sprog
 	UI Brightness	Lysstyrke i brugerfladen
 	Dark	Mørk
@@ -678,8 +678,8 @@
 	Save Swatch Library…	Gem bibliotek med farveprøver…
 	Symbol Libraries	Symbolbiblioteker
 	Help	Hjælp
-	ArtCraft Website	ArtCrafts websted
-	VectorCraft on getartcraft.com	VectorCraft på getartcraft.com
+	Creative Workshop Website	Creative Workshops websted
+	VectorCraft on github.com/dfoliveira2143	VectorCraft på github.com/dfoliveira2143
 	VectorCraft on GitHub	VectorCraft på GitHub
 	Search Commands…	Søg i kommandoer…
 	VectorCraft Help…	Hjælp til VectorCraft…
@@ -1859,8 +1859,8 @@ lighting	Light	Lys
 	Select All Bound Objects	Markér alle bundne objekter
 	Multiple objects	Flere objekter
 	Graphics: {adapter}	Grafik: {adapter}
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Del af ArtCraft. MIT OR Apache-2.0. Skrifttyper: Source Sans 3, Inter, JetBrains Mono (OFL). Ikoner: Lucide (ISC) + VectorCraft.
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Del af ArtCraft. MIT OR Apache-2.0. Skrifttyper: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikoner: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Del af Creative Workshop. MIT OR Apache-2.0. Skrifttyper: Source Sans 3, Inter, JetBrains Mono (OFL). Ikoner: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Del af Creative Workshop. MIT OR Apache-2.0. Skrifttyper: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikoner: Lucide (ISC) + VectorCraft.
 	Version {version} — open-source vector illustration in pure Rust.	Version {version} — open source-vektorillustration i ren Rust.
 	Align to Page	Justér til side
 	Smooth Color	Jævn farve
@@ -3576,10 +3576,10 @@ effect	Regular	Regular
 	Recent Files	Seneste filer
 	Vector illustration — fast, open, scriptable.	Vektorillustration — hurtig, åben, scriptbar.
 	Welcome to VectorCraft	Velkommen til VectorCraft
-	ArtCraft website	ArtCraft-websted
+	Creative Workshop website	Creative Workshop-websted
 	Discord	Discord
-	Join our Discord	Deltag i vores Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Deltag i ArtCraft-fællesskabet på Discord (discord.gg/artcraft)
+	Project support	Deltag i vores Discord
+	Project support on GitHub (github.com/dfoliveira2143/vectorcraft/issues)	Deltag i Creative Workshop-fællesskabet på GitHub (github.com/dfoliveira2143/vectorcraft/issues)
 	Source code on GitHub	Kildekode på GitHub
 	All Tools	Alle værktøjer
 	Draw	Tegn

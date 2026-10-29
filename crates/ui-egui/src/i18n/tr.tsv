@@ -225,8 +225,8 @@ font-technology	Variable	Değişken
 	Artboard {number}	Çalışma yüzeyi {number}
 	Artboard:	Çalışma yüzeyi:
 	Artboards	Çalışma Yüzeyleri
-	ArtCraft Website	ArtCraft Web Sitesi
-	ArtCraft website	ArtCraft web sitesi
+	Creative Workshop Website	Creative Workshop Web Sitesi
+	Creative Workshop website	Creative Workshop web sitesi
 	Artwork Colors	Sanat Eseri Renkleri
 	As Multiple Assets	Çoklu Varlıklar Olarak
 	As Single Asset	Tek Varlık Olarak
@@ -1433,9 +1433,9 @@ font-technology	Variable	Değişken
 	Italian	İtalyan
 	Japanese	Japonca
 	Join	Katıl
-	Join Our Discord	Discord'umuza Katılın
-	Join our Discord	Discord'umuza katılın
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Discord'daki ArtCraft topluluğuna katılın (discord.gg/artcraft)
+	Project support	Discord'umuza Katılın
+	Project support	Discord'umuza katılın
+	Project support on GitHub (github.com/dfoliveira2143/vectorcraft/issues)	GitHub'daki Creative Workshop topluluğuna katılın (github.com/dfoliveira2143/vectorcraft/issues)
 	Join the lines of each paragraph	Her paragrafın satırlarını birleştirin
 	Join Tool	Birleştirme Aracı
 	Justification…	İki Yana Yaslama…
@@ -2080,7 +2080,7 @@ font-technology	Variable	Değişken
 	Paragraph Style Options	Paragraf Stili Seçenekleri
 	Paragraph Styles	Paragraf Stilleri
 	Paragraph Symbol	Paragraf Sembolü
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft'ın bir parçası. MIT VEYA Apache-2.0. Yazı Tipleri: Source Sans 3, Inter, JetBrains Mono (OFL). Simgeler: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Creative Workshop'ın bir parçası. MIT VEYA Apache-2.0. Yazı Tipleri: Source Sans 3, Inter, JetBrains Mono (OFL). Simgeler: Lucide (ISC) + VectorCraft.
 	Password	Şifre
 	Paste	Yapıştır
 	Paste in Back	Arkaya Yapıştır
@@ -3377,7 +3377,7 @@ font-technology	Variable	Değişken
 	Vector illustration — fast, open, scriptable.	Vektör illüstrasyonu — hızlı, açık, yazılabilir.
 	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft geçen sefer normal şekilde kapanmamıştı. Bu belgelerde kaydedilmemiş değişiklikler vardı:
 	VectorCraft Help…	VectorCraft Yardımı…
-	VectorCraft on getartcraft.com	Getartcraft.com'da VectorCraft
+	VectorCraft on github.com/dfoliveira2143	Getartcraft.com'da VectorCraft
 	VectorCraft on GitHub	GitHub'da VectorCraft
 	Vectors	Vektörler
 	Version {version} — open-source vector illustration in pure Rust.	Sürüm {version} — saf Rust'ta açık kaynaklı vektör çizimi.
@@ -4739,7 +4739,7 @@ lighting	Light	Işık
 	PDF/X-4:2010	PDF/X-4:2010
 	PRs	PR'ler
 	Page Cover 1640×624	Sayfa Kapağı 1640×624
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft'ın bir parçası. MIT VEYA Apache-2.0. Yazı Tipleri: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Simgeler: Lucide (ISC) + VectorCraft.
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Creative Workshop'ın bir parçası. MIT VEYA Apache-2.0. Yazı Tipleri: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Simgeler: Lucide (ISC) + VectorCraft.
 	Pattern Swatches	Desen Örnekleri
 	Pen	Kalem
 	Pentagram	Pentagram

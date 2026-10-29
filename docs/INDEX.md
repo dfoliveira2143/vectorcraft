@@ -52,3 +52,5 @@ Os guias são mapas de navegação, não novas cópias dos contratos técnicos. 
 - [Typography and Custom Lettering in VectorCraft](typography-lettering.md)
 - [UI and interaction parity](ui-parity.md)
 - [Windows 7 x64 compatibility build (experimental, unsupported)](windows7.md)
+
+- [Creative Workshop: origem, identidade e publicação](branding.md)

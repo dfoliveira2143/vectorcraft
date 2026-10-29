@@ -84,7 +84,7 @@ of CC0 sample files.
 The reader also has independent copies in PhotoCraft's `photocraft-affinity` and DesignCraft's
 `designcraft-affinity`. Tables, paragraph formats, text scale, master pages, layer effects,
 overlays, embedded documents, large pixel layers and HEIC photos were added in DesignCraft
-([storytold/designcraft#291](https://github.com/storytold/designcraft/pull/291)) and brought back
+([storytold/designcraft#291](https://github.com/dfoliveira2143/designcraft/pull/291)) and brought back
 here, from the same public fixtures and the thumbnails of documents their owners made, used only
 locally. Automatic leading (the font size plus the font's line gap, for artistic and frame text)
 was fitted on the thumbnails of one such local document with 56 artboards and on the public Patchy

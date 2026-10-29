@@ -49,7 +49,7 @@ font-technology	Variable	バリアブル
 	Favorites	お気に入り
 	Flip	反転
 	Japanese	日本語
-	Join Our Discord	Discord に参加
+	Project support	Discord に参加
 	Line-end Punctuation Half Width	行末約物半角
 	Insert Kashidas	カシーダを挿入
 	Long	長い
@@ -727,8 +727,8 @@ font-technology	Variable	バリアブル
 	Save Swatch Library…	スウォッチライブラリを保存…
 	Symbol Libraries	シンボルライブラリ
 	Help	ヘルプ
-	ArtCraft Website	ArtCraft の Web サイト
-	VectorCraft on getartcraft.com	getartcraft.com の VectorCraft
+	Creative Workshop Website	Creative Workshop の Web サイト
+	VectorCraft on github.com/dfoliveira2143	github.com/dfoliveira2143 の VectorCraft
 	VectorCraft on GitHub	GitHub の VectorCraft
 	Search Commands…	コマンドを検索…
 	VectorCraft Help…	VectorCraft ヘルプ…
@@ -939,7 +939,7 @@ font-technology	Variable	バリアブル
 	Arrange: Bring to Front	重ね順: 最前面へ
 	Arrowheads:	矢印:
 	Art using a deleted global swatch keeps its colour.	削除したグローバルスウォッチを使っているアートは、そのカラーを保持します。
-	ArtCraft website	ArtCraft の Web サイト
+	Creative Workshop website	Creative Workshop の Web サイト
 	Artboard Options	アートボードオプション
 	Artboard Options…	アートボードオプション…
 	Artboard Tool	アートボードツール
@@ -1834,8 +1834,8 @@ font-technology	Variable	バリアブル
 	Isolate Group	グループを分離
 	Italian	イタリア語
 	Join Tool	結合ツール
-	Join our Discord	Discord に参加
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Discord で ArtCraft コミュニティに参加 (discord.gg/artcraft)
+	Project support	Discord に参加
+	Project support on GitHub (github.com/dfoliveira2143/vectorcraft/issues)	GitHub で Creative Workshop コミュニティに参加 (github.com/dfoliveira2143/vectorcraft/issues)
 	Join the lines of each paragraph	段落内の行を連結
 	Justification…	文字組み…
 	Keep Formatting	書式を保持
@@ -3535,7 +3535,7 @@ file-filter	Templates	テンプレート
 	Packaged {n} file(s){note}	{n} 個のファイルをパッケージしました{note}
 	Page information	ページ情報
 	Paragraph Style	段落スタイル
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft の一員。MIT OR Apache-2.0。フォント：Source Sans 3、Inter、JetBrains Mono (OFL)。アイコン：Lucide (ISC) + VectorCraft。
+	Part of Creative Workshop. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Creative Workshop の一員。MIT OR Apache-2.0。フォント：Source Sans 3、Inter、JetBrains Mono (OFL)。アイコン：Lucide (ISC) + VectorCraft。
 	Perspective grid presets	遠近グリッドプリセット
 	Phone 390×844	スマートフォン 390×844
 	Place onto a new locked, dimmed template layer below the current layer	現在のレイヤーの下に、ロックされ淡色表示の新規テンプレートレイヤーとして配置
